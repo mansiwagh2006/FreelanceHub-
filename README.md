@@ -31,6 +31,7 @@ FreelanceHub is a full-stack MERN application that connects clients with skilled
 
 ## 📁 Project Structure
 
+<pre>
 FreelanceHub/
 ├── Client/                     # React frontend
 │   └── src/
@@ -44,6 +45,7 @@ FreelanceHub/
     ├── controllers/            # Business logic
     ├── Routes/                 # API endpoints
     └── middleware/             # JWT auth middleware
+</pre>
 
 
 ## Getting Started
