@@ -29,19 +29,21 @@ FreelanceHub is a full-stack MERN application that connects clients with skilled
 
 **Architecture:** MVC pattern (Models, Controllers, Routes)
 
-## Project Structure
+## 📁 Project Structure
+
 FreelanceHub/
-├── Client/ # React frontend
-│ └── src/
-│ ├── api/ # Axios configuration
-│ ├── components/ # Reusable components (Navbar, ProtectedRoute)
-│ ├── context/ # Auth context for global state
-│ └── pages/ # Login, Register, Dashboard, Chat, etc.
-└── Server/ # Express backend
-├── models/ # Mongoose schemas (User, Project, Application, Chat, Freelancer)
-├── controllers/ # Business logic
-├── Routes/ # API endpoints
-└── middleware/ # JWT auth middleware
+├── Client/                     # React frontend
+│   └── src/
+│       ├── api/                # Axios configuration
+│       ├── components/         # Reusable components (Navbar, ProtectedRoute)
+│       ├── context/            # Auth context for global state
+│       └── pages/              # Login, Register, Dashboard, Chat, etc.
+│
+└── Server/                     # Express backend
+    ├── models/                 # Mongoose schemas (User, Project, Application, Chat, Freelancer)
+    ├── controllers/            # Business logic
+    ├── Routes/                 # API endpoints
+    └── middleware/             # JWT auth middleware
 
 
 ## Getting Started
